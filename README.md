@@ -1,6 +1,5 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:0a3628,100:00ff88&height=120&section=header" width="100%"/>
 
 # Mahdy Muzzammil
 ### Backend Engineer · AI Systems Builder
@@ -182,6 +181,5 @@ Ship it. Then make it better.       Momentum beats perfection.
 <br/>
 *383 contributions · 37 repositories · always building*
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00ff88,50:0a3628,100:0d1117&height=80&section=footer" width="100%"/>
 
 </div>
