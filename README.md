@@ -1,114 +1,187 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:00ff88,100:00d4ff&height=140&section=header&text=Mahdy%20Muzzammil&fontSize=45&fontColor=ffffff&animation=fadeIn&fontAlignY=55" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:0a3628,100:00ff88&height=120&section=header" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00FF88&center=true&vCenter=true&width=620&lines=Building+distributed+systems+that+scale.;Orchestrating+autonomous+AI+agents.;Shipping+EpiTrace+in+public.;High-signal+engineering.+Zero+fluff." alt="Typing SVG" />
+# Mahdy Muzzammil
+### Backend Engineer · AI Systems Builder
 
-<p align="center">
-  <kbd><b>Backend Architect</b></kbd> • <kbd><b>AI Agent Engineer</b></kbd> • <kbd><b>System Designer</b></kbd>
+<p>
+  I design and ship production-grade backend systems — scalable APIs, event-driven pipelines, and AI-powered workflows.
+  <br/>
+  I care deeply about architecture, reliability, and systems that work at scale.
 </p>
 
-<br/>
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/heymahdymuzz)
-[![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=00FF88)](https://github.com/HeyMahdy)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/heymahdymuzz)
+[![GitHub](https://img.shields.io/badge/GitHub-HeyMahdy-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/HeyMahdy)
 
 </div>
 
+---
 
-```ts
-// what I'm about
-const mahdy = {
-  building:  "scalable backends + agentic AI systems",
-  obsessed:  ["system design", "async pipelines", "LLM agents that actually work"],
-  currently: "shipping in public, learning in public",
-  open_to:   "early-stage startups where backend infra is a real problem",
-}
-```
+## 🧠 Core Expertise
 
-## ⚡ Shipped & Deployed
+<table>
+<tr>
+<td valign="top" width="50%">
 
-### 📡 [api_monitor](https://github.com/HeyMahdy/api_monitor) — Production-grade API Health Engine
-*High-throughput monitoring with a focus on p95/p99 observability.*
+### Backend Engineering
+- **API Design** — RESTful, event-driven, multi-tenant architectures
+- **Async Processing** — BullMQ + Redis workers, queue-first design
+- **Databases** — PostgreSQL, MySQL (RDS), schema design, query optimization
+- **Auth & Security** — JWT, RBAC, custom middleware, permission layers
+- **Observability** — Swagger/OpenAPI docs, rolling analytics, p95/p99 latency
+- **Infrastructure** — Docker, AWS EC2, deployment pipelines
 
-- **Core:** Queue-first architecture using **BullMQ + Redis** for non-blocking analytics processing.
-- **Features:** Rolling uptime windows (24h/7d/30d), incident state machine (OPEN → ACK), and webhook retry logic with exponential backoff.
-- **Stack:** `TypeScript` · `Node.js` · `PostgreSQL` · `BullMQ` · `OpenAPI`
+</td>
+<td valign="top" width="50%">
+
+### AI & Agentic Systems
+- **Agent Workflows** — LangGraph multi-agent pipelines, smart routing
+- **LLM Integration** — GPT-4o-mini, structured outputs, rule + LLM decisioning
+- **Human-in-the-Loop** — interrupt handling for medium-confidence cases
+- **Observability** — LangSmith tracing for agent monitoring
+- **Integrations** — Google Sheets API, automated email, CSV pipelines
+- **Tooling** — building AI agents that take real backend actions
+
+</td>
+</tr>
+</table>
 
 ---
 
-### 🛠️ [EpiTrace](https://github.com/HeyMahdy/EpiTrace) — Autonomous Incident Remediation
-*Moving from "Alerting" to "Acting." Zero-intervention ops.*
-
-- **Concept:** Incident detection + autonomous remediation using **Cline CLI** as infrastructure. 
-- **Impact:** An agentic backend designed to detect, trace, and patch incidents without manual intervention.
-- **Stack:** `JavaScript` · `AI Agents` · `Infrastructure as Code`
-
----
-
-### 🤖 [FactoryAi_agent](https://github.com/HeyMahdy/FactoryAi_agent) — Multi-Agent Evaluation Loop
-*LangGraph-based orchestration for complex industrial workflows.*
-
-- **Logic:** Built a sophisticated state machine: **Rule-based Checker → LLM Supervisor → DB/Human-in-the-Loop.**
-- **Reliability:** Implemented **HITL** interrupts for medium-confidence cases and full **LangSmith** tracing for observability.
-- **Stack:** `Python` · `LangGraph` · `GPT-4o-mini` · `LangSmith` · `Google Sheets API`
-
----
-
-### 🏢 [prokoi](https://github.com/HeyMahdy/prokoi) — Multi-Tenant Project Management API
-*Enterprise-ready architecture built for scale and isolation.*
-
-- **Architecture:** Clean **API → Service → Repository** layering for high maintainability and testability.
-- **Features:** Multi-org data isolation, real-time notifications via **Redis Streams + WebSockets**, and deep sprint analytics (velocity/workload).
-- **Stack:** `FastAPI` · `PostgreSQL` · `Redis Streams` · `WebSockets` · `JWT/RBAC` · `Docker`
-
-
-## 🧰 stack
+## 🛠️ Tech Stack
 
 | | |
 |---|---|
 | **Languages** | TypeScript · Python · JavaScript · SQL · Bash |
-| **Backend** | FastAPI · Express.js · Node.js · BullMQ · Prisma |
+| **Backend** | FastAPI · Express.js · Node.js · Prisma ORM · BullMQ |
+| **Frontend** | Next.js · React 19 · Tailwind CSS |
 | **Databases** | PostgreSQL · MySQL · DynamoDB · Redis · Redis Streams |
 | **Auth & Validation** | JWT · RBAC · Zod · Custom Middleware |
 | **Real-time** | WebSockets · Redis Pub/Sub · Webhook Alerts |
-| **API & Docs** | Swagger · OpenAPI · REST · Event-Driven |
+| **API & Docs** | Swagger · OpenAPI · REST · Event-Driven Design |
 | **AI / Agents** | LangGraph · LangSmith · GPT-4o-mini · Jupyter |
 | **Cloud & Infra** | Docker · EC2 · ECS · EKS · ELB · S3 · EBS · SQS · SNS · ElastiCache |
 
 ---
 
-## 🧠 how I think about building
+## 🚀 Featured Projects
 
-```
-ship early, observe always         telemetry isn't optional — it's how you learn fast
-queues over direct calls           decouple everything that doesn't need to be coupled
-agents need guardrails             HITL isn't a fallback, it's good system design
-multi-tenant from day one          retrofitting org isolation is painful. don't.
-boring tech for boring problems    reach for the fancy stuff only when it earns its keep
-```
+### 🔴 Backend Systems
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+#### [`api_monitor`](https://github.com/HeyMahdy/api_monitor) — TypeScript
+> Production-grade API monitoring & incident tracking system
+
+- Queue-first async processing with BullMQ + Redis workers
+- Rolling analytics: 24h/7d/30d uptime, avg latency, p95/p99
+- Incident workflows with OPEN/ACKNOWLEDGED states
+- Webhook alerts with retry/backoff + full Swagger/OpenAPI docs
+
+</td>
+<td width="50%" valign="top">
+
+#### [`prokoi`](https://github.com/HeyMahdy/prokoi) — Python
+> Multi-tenant project management backend for organizations
+
+- API → Service → Repository architecture with FastAPI
+- JWT auth, custom middleware, permission-based RBAC
+- Sprint lifecycle APIs: velocity, workload, team performance
+- Redis Streams + WebSocket real-time notifications
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### [`Cobuddyy`](https://github.com/HeyMahdy/Cobuddyy) — Node.js
+> Developer collaboration backend
+
+- PostgreSQL + Prisma ORM with Docker
+- Project networking and idea-sharing platform
+- Containerized for consistent deployments
+
+</td>
+<td width="50%" valign="top">
+
+#### [`prokoi_frontend`](https://github.com/HeyMahdy/prokoi_frontend) — TypeScript
+> Full-stack project tracking platform
+
+- Next.js + React 19 + Tailwind CSS
+- Multi-org hierarchy, sprint analytics dashboard
+- JWT-secured auth, role-based access control
+
+</td>
+</tr>
+</table>
+
+### 🤖 AI & Agentic Systems
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+#### [`FactoryAi_agent`](https://github.com/HeyMahdy/FactoryAi_agent) — Python
+> LangGraph multi-agent product evaluation workflow
+
+- Rule-based checks + GPT-4o-mini LLM decisioning
+- Smart routing: checker → supervisor → DB/HITL/feedback
+- Human-in-the-Loop interrupts for medium-confidence cases
+- LangSmith tracing for full agent observability
+- Google Sheets sync, automated rejection emails
+
+</td>
+<td width="50%" valign="top">
+
+#### [`EpiTrace`](https://github.com/HeyMahdy/EpiTrace) — JavaScript
+> Autonomous incident monitoring & remediation backend
+
+- Designed for "Cline CLI as Infrastructure" workflows
+- Detects, traces, and remediates backend incidents
+- Agentic approach to ops — no manual intervention
+
+</td>
+</tr>
+</table>
 
 ---
 
-## 📊 activity
+## 📊 GitHub Activity
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=HeyMahdy&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00ff88&icon_color=00ff88&text_color=c9d1d9&include_all_commits=true&count_private=true" height="160"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HeyMahdy&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00ff88&text_color=c9d1d9&langs_count=6" height="160"/>
+<img src="https://github-readme-stats.vercel.app/api?username=HeyMahdy&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00ff88&icon_color=00ff88&text_color=c9d1d9&include_all_commits=true&count_private=true" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HeyMahdy&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00ff88&text_color=c9d1d9&langs_count=6" height="165"/>
 
 <br/>
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=HeyMahdy&theme=tokyonight&hide_border=true&background=0d1117&stroke=00ff88&ring=00ff88&fire=ff6b6b&currStreakLabel=00ff88&sideLabels=c9d1d9)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=HeyMahdy&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=00ff88&ring=00ff88&fire=00ff88&currStreakLabel=00ff88)](https://git.io/streak-stats)
 
 </div>
 
 ---
 
+## 💡 Engineering Philosophy
+
+```
+Build for scale from day one.       Not premature optimization — just good decisions.
+Async where it matters.             Don't block the main thread. Ever.
+Observability is not optional.      If you can't monitor it, you don't own it.
+Agents over scripts.                Give the system intent, not just instructions.
+Ship it. Then make it better.       Momentum beats perfection.
+```
+
+---
+
 <div align="center">
 
-**open to early-stage · let's build something real · [reach out](https://www.linkedin.com/in/heymahdymuzz)**
+**Open to Backend Engineering & AI Systems roles**
+<br/>
+*383 contributions · 37 repositories · always building*
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00ff88,50:0a3628,100:0d1117&height=80&section=footer" width="100%"/>
 
 </div>
