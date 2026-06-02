@@ -70,7 +70,7 @@
 <tr>
 <td width="50%" valign="top">
 
-#### `assess-ai` — Python + TypeScript
+#### [`Assess-AI`](https://github.com/HeyMahdy/Assess-AI) — Python + TypeScript
 > Automated evaluation & curriculum-aware teaching assistant
 
 - Multi-agent LangGraph pipeline: Vision LLM extracts questions, rubrics, solutions, and student answers from uploaded PDFs via a shared graph-builder factory
