@@ -17,37 +17,6 @@
 
 ---
 
-## 🧠 Core Expertise
-
-<table>
-<tr>
-<td valign="top" width="50%">
-
-### Backend Engineering
-- **API Design** — RESTful, event-driven, multi-tenant architectures
-- **Async Processing** — BullMQ + Redis workers, queue-first design
-- **Databases** — PostgreSQL, MySQL (RDS), schema design, query optimization
-- **Auth & Security** — JWT, RBAC, custom middleware, permission layers
-- **Observability** — Swagger/OpenAPI docs, rolling analytics, p95/p99 latency
-- **Infrastructure** — Docker, AWS EC2, deployment pipelines
-
-</td>
-<td valign="top" width="50%">
-
-### AI & Agentic Systems
-- **Agent Workflows** — LangGraph multi-agent pipelines, smart routing
-- **LLM Integration** — GPT-4o-mini, structured outputs, rule + LLM decisioning
-- **Human-in-the-Loop** — interrupt handling for medium-confidence cases
-- **Observability** — LangSmith tracing for agent monitoring
-- **Integrations** — Google Sheets API, automated email, CSV pipelines
-- **Tooling** — building AI agents that take real backend actions
-
-</td>
-</tr>
-</table>
-
----
-
 ## 🛠️ Tech Stack
 
 | | |
@@ -93,28 +62,6 @@
 
 </td>
 </tr>
-<tr>
-<td width="50%" valign="top">
-
-#### [`Cobuddyy`](https://github.com/HeyMahdy/Cobuddyy) — Node.js
-> Developer collaboration backend
-
-- PostgreSQL + Prisma ORM with Docker
-- Project networking and idea-sharing platform
-- Containerized for consistent deployments
-
-</td>
-<td width="50%" valign="top">
-
-#### [`prokoi_frontend`](https://github.com/HeyMahdy/prokoi_frontend) — TypeScript
-> Full-stack project tracking platform
-
-- Next.js + React 19 + Tailwind CSS
-- Multi-org hierarchy, sprint analytics dashboard
-- JWT-secured auth, role-based access control
-
-</td>
-</tr>
 </table>
 
 ### 🤖 AI & Agentic Systems
@@ -123,14 +70,12 @@
 <tr>
 <td width="50%" valign="top">
 
-#### [`FactoryAi_agent`](https://github.com/HeyMahdy/FactoryAi_agent) — Python
-> LangGraph multi-agent product evaluation workflow
+#### `assess-ai` — Python + TypeScript
+> Automated evaluation & curriculum-aware teaching assistant
 
-- Rule-based checks + GPT-4o-mini LLM decisioning
-- Smart routing: checker → supervisor → DB/HITL/feedback
-- Human-in-the-Loop interrupts for medium-confidence cases
-- LangSmith tracing for full agent observability
-- Google Sheets sync, automated rejection emails
+- Multi-agent LangGraph pipeline: Vision LLM extracts questions, rubrics, solutions, and student answers from uploaded PDFs via a shared graph-builder factory
+- Dual-grader ensemble with strict + fair LLM scoring, confidence aggregation, and per-question iterative persistence
+- GraphRAG syllabus agent combining vector search + entity-relationship graph to power a TA chatbot with curriculum-aware context
 
 </td>
 <td width="50%" valign="top">
@@ -164,22 +109,3 @@
 ---
 
 ## 💡 Engineering Philosophy
-
-```
-Build for scale from day one.       Not premature optimization — just good decisions.
-Async where it matters.             Don't block the main thread. Ever.
-Observability is not optional.      If you can't monitor it, you don't own it.
-Agents over scripts.                Give the system intent, not just instructions.
-Ship it. Then make it better.       Momentum beats perfection.
-```
-
----
-
-<div align="center">
-
-**Open to Backend Engineering & AI Systems roles**
-<br/>
-*383 contributions · 37 repositories · always building*
-
-
-</div>
