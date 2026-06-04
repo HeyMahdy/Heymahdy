@@ -2,13 +2,7 @@
 
 
 # Mahdy Muzzammil
-### Backend Engineer · AI Systems Builder
-
-<p>
-  I design and ship production-grade backend systems — scalable APIs, event-driven pipelines, and AI-powered workflows.
-  <br/>
-  I care deeply about architecture, reliability, and systems that work at scale.
-</p>
+### ### Building scalable backends and agentic workflows
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/heymahdymuzz)
 [![GitHub](https://img.shields.io/badge/GitHub-HeyMahdy-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/HeyMahdy)
