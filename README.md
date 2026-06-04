@@ -16,22 +16,11 @@
 </div>
 
 ---
+## 🛠️ Technical Skills
 
-## 🛠️ Tech Stack
-
-| | |
-|---|---|
-| **Languages** | TypeScript · Python · JavaScript · SQL · Bash |
-| **Backend** | FastAPI · Express.js · Node.js · Prisma ORM · BullMQ |
-| **Frontend** | Next.js · React 19 · Tailwind CSS |
-| **Databases** | PostgreSQL · MySQL · DynamoDB · Redis · Redis Streams |
-| **Auth & Validation** | JWT · RBAC · Zod · Custom Middleware |
-| **Real-time** | WebSockets · Redis Pub/Sub · Webhook Alerts |
-| **API & Docs** | Swagger · OpenAPI · REST · Event-Driven Design |
-| **AI / Agents** | LangGraph · LangSmith · GPT-4o-mini · Jupyter |
-| **Cloud & Infra** | Docker · EC2 · ECS · EKS · ELB · S3 · EBS · SQS · SNS · ElastiCache |
-
----
+- **Languages & Frameworks:** TypeScript, Python, Node.js (Express), FastAPI, LangGraph, LangSmith, JavaScript
+- **Cloud & Infrastructure:** AWS (EC2, ECS, EKS, ELB, S3, SQS, SNS), Docker, BullMQ
+- **Databases & Caching:** PostgreSQL, MySQL, DynamoDB, Redis (Pub/Sub, Streams), Prisma ORM
 
 ## 🚀 Featured Projects
 
