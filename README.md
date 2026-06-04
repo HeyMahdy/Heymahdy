@@ -94,14 +94,18 @@
 ---
 ## 📊 GitHub Activity
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=HeyMahdy&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00ff88&icon_color=00ff88&text_color=c9d1d9&include_all_commits=true&count_private=true" height="165" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HeyMahdy&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00ff88&text_color=c9d1d9&langs_count=6" height="165" alt="Top Languages" />
-  <br/><br/>
-  <a href="https://git.io/streak-stats">
-    <img src="https://streak-stats.demolab.com?user=HeyMahdy&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=00ff88&ring=00ff88&fire=00ff88&currStreakLabel=00ff88" alt="GitHub Streak" />
-  </a>
-</p>
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=HeyMahdy&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00ff88&icon_color=00ff88&text_color=c9d1d9&include_all_commits=true&count_private=true" height="165" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HeyMahdy&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00ff88&text_color=c9d1d9&langs_count=6" height="165" />
+
+<br/>
+
+<a href="https://git.io/streak-stats">
+  <img src="https://streak-stats.demolab.com?user=HeyMahdy&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=00ff88&ring=00ff88&fire=00ff88&currStreakLabel=00ff88" height="165" />
+</a>
+
+</div>
 
 ---
 
